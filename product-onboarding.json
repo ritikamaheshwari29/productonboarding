@@ -1,0 +1,174 @@
+{
+  "productOnboarding": [
+    {
+      "onboardingGroupName": "PXD Demo",
+      "onboardingGroupID": 1,
+      "participant": {
+        "address": "pxd-demo@mcard",
+        "retention": {
+          "id": "1269",
+          "minFileSize": 10240,
+          "maxFileSize": 10737418240,
+          "fileVolume": 30,
+          "volumeFrequency": "Daily",
+          "fileRetention": "1440 Hours"
+        },
+        "status": "SUBMITTED",
+        "type": "CUSTOMER",
+        "companyId": "143502",
+        "createdBy": "Maheshwari, Ritika",
+        "updatedBy": null,
+        "createdAt": 1631690615433,
+        "updatedAt": null,
+        "fileProfiles": null,
+        "comments": [],
+        "servingRegion": {
+          "name": "Global"
+        },
+        "ownerContacts": [
+          "test@mcard"
+        ],
+        "participantAddress": {
+          "logicalAddress": "pxd-demo@mcard",
+          "companyId": "143502",
+          "active": true
+        }
+      },
+      "otherParticipant": "chariot@mastercard-us",
+      "transferPath": [
+        {
+          "mode": {
+            "initiator": "CHARIOT",
+            "actions": [
+              {
+                "action": "PUSH",
+                "type": "ON_DEMAND",
+                "errorHandlingStrgy": null
+              }
+            ]
+          },
+          "connection": [
+            {
+              "connectionType": "SFTP",
+              "sourcePath": "C:\\files",
+              "hostName": "ech-10-168-130-197",
+              "port": 2222,
+              "url": null,
+              "credentials": {
+                "credentialsType": "PASSCODE",
+                "password": "cKMb8tt3Kzfa/aGUAXJHnw==@@@Label830311949458187",
+                "publicSSHKeySecretId": null,
+                "userId": "dc-user",
+                "env": "Stage",
+                "alternateUserId": null,
+                "alternatePassword": null,
+                "credentialGroupName": null,
+                "connCredCorrelationId": null
+              },
+              "env": "Stage",
+              "serverPublicKeySecretId": "6BMuXgXSx7OIZfee9qWbcV/wUcOVtkRHHJhpGkUYl2PNKIo1n5IfCCcoKKrjdMYVMZ9Gq1gWfvntKSH87sTtZ7aBbL9gs+sbeJV6Sa1FHq3GUK2CuHxv2koviPKNNrkn/ev35kMeAlPDl0+hagZ3IX+QXo5xXpN0iU+mqxHdr7vRbO9YRvSLJOdD4S4Qr96ETbXq4bIChdwWB8cZm0QVAXwHeQuy841uYCGXg4lWjcGNgi6C5KIs2abvf/tgcwzatbWZ6GNxwuk2GfSsJT4bprDN+vmspMqk1ewUFMe3vIMpDy/zhg8P+h719qT8xOuJYEEcSt9Epo1tJylEXyovt6RNkyssJc1ccwxCKGHEyfVWQrtb7J5bKfocmDH9ku8vtJ1nA2J0MfhA6A7lLjQO3ooUZqPpoO14vrlAi7SDB8dtD5BRZGMsNFcM3O0VFcGMbSSwIk0KTAVHr+Y4cj545CbWb07j6v2fphR/zgWK+7gM91RSeRlkUYsHYv4evRV0@@@Label830469363784797",
+              "connectionGroupName": "PXD Demo216dd801-ee7f-4b45-8432-b56137b7137c",
+              "connCredCorrelationId": "PXD Demoa1f8cb3c-1e4f-4826-9962-aecfdbf47e4c_Stage_1",
+              "order": 1,
+              "refName": null,
+              "fileLocation": null,
+              "nodeName": null,
+              "alternateNodeName": null,
+              "legacyProcessInfo": null
+            }
+          ]
+        }
+      ],
+      "fileProfileProcessors": [],
+      "exchangeStatus": null,
+      "id": 1
+    },
+    {
+      "productOnboarding": [
+        {
+          "onboardingGroupName": "BOTOnboarded_FileTransfers",
+          "participant": {
+            "address": "botonboard@mcard",
+            "retention": {
+              "id": "1269",
+              "minFileSize": 10240,
+              "maxFileSize": 10737418240,
+              "fileVolume": 30,
+              "volumeFrequency": "Daily",
+              "fileRetention": "1440 Hours"
+            },
+            "status": "SUBMITTED",
+            "type": "CUSTOMER",
+            "companyId": "143502",
+            "createdBy": "Maheshwari, Ritika",
+            "updatedBy": null,
+            "createdAt": 1631690612433,
+            "updatedAt": null,
+            "fileProfiles": null,
+            "comments": [],
+            "servingRegion": {
+              "name": "Global"
+            },
+            "ownerContacts": [
+              "test@mcard",
+              "ritika.maheshwari@mastercard.com"
+            ],
+            "participantAddress": {
+              "logicalAddress": "botonboard@mcard",
+              "companyId": "143502",
+              "active": true
+            }
+          },
+          "otherParticipant": "chariot@mastercard-us",
+          "transferPath": [
+            {
+              "mode": {
+                "initiator": "CHARIOT",
+                "actions": [
+                  {
+                    "action": "PUSH",
+                    "type": "ON_DEMAND",
+                    "errorHandlingStrgy": null
+                  }
+                ]
+              },
+              "connection": [
+                {
+                  "connectionType": "SFTP",
+                  "sourcePath": "C:\\files\\Inbound",
+                  "hostName": "ech-10-168-130-197",
+                  "port": 2222,
+                  "url": null,
+                  "credentials": {
+                    "credentialsType": "SSH Key",
+                    "password": null,
+                    "publicSSHKeySecretId": null,
+                    "userId": "dc-user",
+                    "env": "Stage",
+                    "alternateUserId": null,
+                    "alternatePassword": null,
+                    "credentialGroupName": null,
+                    "connCredCorrelationId": null
+                  },
+                  "env": "Stage",
+                  "serverPublicKeySecretId": "6BMuXgXSx7OIZfee9qWbcV/wUcOVtkRHHJhpGkUYl2PNKIo1n5IfCCcoKKrjdMYVMZ9Gq1gWfvntKSH87sTtZ7aBbL9gs+sbeJV6Sa1FHq3GUK2CuHxv2koviPKNNrkn/ev35kMeAlPDl0+hagZ3IX+QXo5xXpN0iU+mqxHdr7vRbO9YRvSLJOdD4S4Qr96ETbXq4bIChdwWB8cZm0QVAXwHeQuy841uYCGXg4lWjcGNgi6C5KIs2abvf/tgcwzatbWZ6GNxwuk2GfSsJT4bprDN+vmspMqk1ewUFMe3vIMpDy/zhg8P+h719qT8xOuJYEEcSt9Epo1tJylEXyovt6RNkyssJc1ccwxCKGHEyfVWQrtb7J5bKfocmDH9ku8vtJ1nA2J0MfhA6A7lLjQO3ooUZqPpoO14vrlAi7SDB8dtD5BRZGMsNFcM3O0VFcGMbSSwIk0KTAVHr+Y4cj545CbWb07j6v2fphR/zgWK+7gM91RSeRlkUYsHYv4evRV0@@@Label830469363784797",
+                  "connectionGroupName": "BOTOnboarded_FileTransferso216dd801-ee7f-4b45-8432-b56137b7137c",
+                  "connCredCorrelationId": "BOTOnboarded_FileTransfersa1f8cb3c-1e4f-4826-9962-aecfdbf47e4c_Stage_1",
+                  "order": 1,
+                  "refName": null,
+                  "fileLocation": null,
+                  "nodeName": null,
+                  "alternateNodeName": null,
+                  "legacyProcessInfo": null
+                }
+              ]
+            }
+          ],
+          "fileProfileProcessors": [],
+          "exchangeStatus": null
+        }
+      ],
+      "id": 2
+    }
+  ]
+}
